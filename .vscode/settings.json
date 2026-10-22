@@ -1,0 +1,18 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "MASM x64": {
+            "path": "cmd.exe",
+            "args": [
+                "/k",
+                "${workspaceFolder}\\.vscode\\masm-init.cmd"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "MASM x64",
+    "terminal.integrated.fontFamily": "Cascadia Code, Consolas, monospace",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.4,
+    "terminal.integrated.letterSpacing": 0.5,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true
+}
